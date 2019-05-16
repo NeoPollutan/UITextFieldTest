@@ -12,6 +12,7 @@
 		5437C7D5228D0D3B001C7F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5437C7D3228D0D3B001C7F31 /* Main.storyboard */; };
 		5437C7D7228D0D3C001C7F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5437C7D6228D0D3C001C7F31 /* Assets.xcassets */; };
 		5437C7DA228D0D3C001C7F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5437C7D8228D0D3C001C7F31 /* LaunchScreen.storyboard */; };
+		5437C7E2228D1D61001C7F31 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437C7E1228D1D61001C7F31 /* ConfirmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5437C7D6228D0D3C001C7F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5437C7D9228D0D3C001C7F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5437C7DB228D0D3C001C7F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5437C7E1228D1D61001C7F31 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5437C7CF228D0D3B001C7F31 /* AppDelegate.swift */,
 				5437C7D1228D0D3B001C7F31 /* ViewController.swift */,
 				5437C7D3228D0D3B001C7F31 /* Main.storyboard */,
+				5437C7E1228D1D61001C7F31 /* ConfirmViewController.swift */,
 				5437C7D6228D0D3C001C7F31 /* Assets.xcassets */,
 				5437C7D8228D0D3C001C7F31 /* LaunchScreen.storyboard */,
 				5437C7DB228D0D3C001C7F31 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5437C7E2228D1D61001C7F31 /* ConfirmViewController.swift in Sources */,
 				5437C7D2228D0D3B001C7F31 /* ViewController.swift in Sources */,
 				5437C7D0228D0D3B001C7F31 /* AppDelegate.swift in Sources */,
 			);
